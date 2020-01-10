@@ -1,4 +1,4 @@
 const config = {
-  apikey: 'enter-your-api-key'
+  apikey: process.env.news_api_key
 };
 export default config;
