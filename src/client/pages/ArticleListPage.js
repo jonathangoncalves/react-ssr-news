@@ -114,9 +114,6 @@ ArticleListPage.defaultProps = {
 };
 
 export default {
-  component: connect(
-    mapStateToProps,
-    { fetchArticles }
-  )(ArticleListPage),
+  component: connect(mapStateToProps, { fetchArticles })(ArticleListPage),
   loadData
 };

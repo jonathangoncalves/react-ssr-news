@@ -102,9 +102,6 @@ HomePage.defaultProps = {
 };
 
 export default {
-  component: connect(
-    mapStateToProps,
-    { fetchArticles }
-  )(HomePage),
+  component: connect(mapStateToProps, { fetchArticles })(HomePage),
   loadData
 };
